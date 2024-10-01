@@ -3,11 +3,13 @@ import './App.css';
 import HookCounter from './useState/HookCounter';
 import CounterWithPrevState from './useState/CounterWithPrevState';
 import UseStateWithObject from './useState/UseStateWithObject';
+import UseStateWithArrays from './useState/UseStateWithArrays';
 
 function App() {
   return (
     <div className="App">
-      <UseStateWithObject/>
+      <UseStateWithArrays/>
+      {/* <UseStateWithObject/> */}
       {/* <CounterWithPrevState/> */}
       {/* <HookCounter/> */}
       {/* <ClassCounter/> */}
