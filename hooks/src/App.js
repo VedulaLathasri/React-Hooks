@@ -4,11 +4,15 @@ import HookCounter from './useState/HookCounter';
 import CounterWithPrevState from './useState/CounterWithPrevState';
 import UseStateWithObject from './useState/UseStateWithObject';
 import UseStateWithArrays from './useState/UseStateWithArrays';
+import ClassCounterOne from './useEffect/ClassCounterOne';
+import HookCounterOne from './useEffect/HookCounterOne';
 
 function App() {
   return (
     <div className="App">
-      <UseStateWithArrays/>
+      <HookCounterOne/>
+      {/* <ClassCounterOne/> */}
+      {/* <UseStateWithArrays/> */}
       {/* <UseStateWithObject/> */}
       {/* <CounterWithPrevState/> */}
       {/* <HookCounter/> */}
