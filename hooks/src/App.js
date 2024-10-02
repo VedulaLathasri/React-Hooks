@@ -7,11 +7,25 @@ import UseStateWithArrays from './useState/UseStateWithArrays';
 import ClassCounterOne from './useEffect/ClassCounterOne';
 import HookCounterOne from './useEffect/HookCounterOne';
 import DataFetching from './useEffect/DataFetching';
+import ComponentC from './useContext/ComponentC';
+import React from 'react';
+import CounterOne from './useReducer/CounterOne';
+import ParentComponent from './useCallback/ParentComponent';
 
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <DataFetching/>
+      <ParentComponent/>
+
+      {/* <CounterOne/> */}
+      {/* <UserContext.Provider value={'Vishwas'}> 
+        <ChannelContext.Provider value={'codevolition'}>
+          <ComponentC/>
+        </ChannelContext.Provider>
+      </UserContext.Provider> */}
+      {/* <DataFetching/> */}
       {/* <HookCounterOne/> */}
       {/* <ClassCounterOne/> */}
       {/* <UseStateWithArrays/> */}
