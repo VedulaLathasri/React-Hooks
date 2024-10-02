@@ -10,4 +10,5 @@ React Hooks
 ## useEffect Hook
     1. ClassCounterOne.js - simple counter with Class Components
     2. HookCounterOne.js - counter with useEffect hook
-    3. Conditionally run the useEffect Hook
+        1. UseEffect after every render
+        2. Conditionally run the useEffect Hook

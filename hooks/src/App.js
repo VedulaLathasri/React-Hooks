@@ -6,11 +6,13 @@ import UseStateWithObject from './useState/UseStateWithObject';
 import UseStateWithArrays from './useState/UseStateWithArrays';
 import ClassCounterOne from './useEffect/ClassCounterOne';
 import HookCounterOne from './useEffect/HookCounterOne';
+import DataFetching from './useEffect/DataFetching';
 
 function App() {
   return (
     <div className="App">
-      <HookCounterOne/>
+      <DataFetching/>
+      {/* <HookCounterOne/> */}
       {/* <ClassCounterOne/> */}
       {/* <UseStateWithArrays/> */}
       {/* <UseStateWithObject/> */}
