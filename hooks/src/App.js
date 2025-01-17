@@ -9,19 +9,21 @@ import HookCounterOne from './useEffect/HookCounterOne';
 import DataFetching from './useEffect/DataFetching';
 import ComponentC from './useContext/ComponentC';
 import React from 'react';
-import CounterOne from './useReducer/CounterOne';
-import ParentComponent from './useCallback/ParentComponent';
-import Counter from './useMemo/Counter';
-import CounterTwo from './useCounterCustomHook/CounterTwo';
-import CounterOne from './useCounterCustomHook/CounterOne';
+// import CounterOne from './useReducer/CounterOne';
+// import ParentComponent from './useCallback/ParentComponent';
+// import Counter from './useMemo/Counter';
+// import CounterTwo from './useCounterCustomHook/CounterTwo';
+// import CounterOne from './useCounterCustomHook/CounterOne';
+import Parent from './useImperativeHandle/Parent';
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <CounterTwo/>
-      <CounterOne/>
+      <Parent/>
+      {/* <CounterTwo/>
+      <CounterOne/> */}
       {/* <Counter/> */}
       {/* <ParentComponent/> */}
 
